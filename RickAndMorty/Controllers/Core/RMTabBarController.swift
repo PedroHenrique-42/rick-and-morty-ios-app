@@ -7,10 +7,11 @@
 
 import UIKit
 
+/// Controller to house tabs and root tab controller
 final class RMTabBarController: UITabBarController {
 	
 	override func viewDidLoad() {
-		super.viewDidLoad()
+		super.viewDidLoad()/// Controller to show and search for characters
 		setUpTabs()
 	}
 	

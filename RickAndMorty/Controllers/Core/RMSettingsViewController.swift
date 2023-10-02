@@ -1,5 +1,5 @@
 //
-//  RMCharacterViewController.swift
+//  RMSettingsViewController.swift
 //  RickAndMorty
 //
 //  Created by Pedro Henrique on 01/10/23.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-final class RMCharacterViewController: UIViewController {
+/// Controller to show various app options and settings
+final class RMSettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
 		view.backgroundColor = .systemBackground
-        title = "Characters"
+		title = "Settings"
     }
 
 }
